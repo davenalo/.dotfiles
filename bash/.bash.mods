@@ -1,0 +1,23 @@
+
+### Otras modificaciones
+
+alias ls='ls --color=auto'
+alias la='ls -a'
+alias ll='ls -lav --ignore=..'   # show long listing of all except ".."
+alias  l='ls -lav --ignore=.?*'   # show long listing but no hidden dotfiles except "."
+alias lsd="ls --human-readable --size -1 -S --classify"
+alias tmuxls="tmux list-sessions"
+alias tmuxat="tmux attach -t"
+alias grep="grep --color=auto"
+tmuxls
+
+###
+
+REDorange='\[\e[1;31m\]'
+CYAN='\[\e[1;36m\]'
+PURPLE='\[\e[1;35m\]'
+nc='\[\e[0m\]'
+
+PS1="$PURPLE\u$REDorange@$CYAN\H$nc:$nc\\n\$$nc "
+
+###

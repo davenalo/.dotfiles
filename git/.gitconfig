@@ -1,0 +1,16 @@
+# cheatsheet - aliases: l, s
+# 
+# git add . / git commit -m "" / git push
+# 
+
+[user]
+	email = 
+	name = 
+
+[alias]
+
+    # Logs más entendibles
+    l = log --pretty=oneline -n 10 --graph --abbrev-commit
+
+    # Status
+    s = status -s
