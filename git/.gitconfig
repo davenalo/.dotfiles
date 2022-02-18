@@ -14,3 +14,6 @@
 
     # Status
     s = status -s
+
+[init]
+	defaultBranch = main
